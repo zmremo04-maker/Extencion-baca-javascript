@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #91cacc;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.contenedor {
+  width: 500px;
+  background: rgb(241, 194, 194);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+textarea {
+  width: 96%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  resize: none;
+  border: 2px solid rgb(148, 45, 131);
+  border-radius: 10px;
+
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid rgb(148, 45, 131);
+  border-radius: 10px;
+
+}
+
+#listaComentarios {
+  margin-top: 20px;
+}
+
+.comentario {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.comentario button {
+  margin-top: 8px;
+}
+
+#contadorComentarios {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px;
+  background: #ffffff70;
+  border-radius: 8px;
+}
